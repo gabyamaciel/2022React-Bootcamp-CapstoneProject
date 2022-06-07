@@ -14,7 +14,7 @@ export const NavBar = styled.div`
   border-bottom: 1px solid #6FBAF1;
 `;
 
-export const HeaderName = styled.a`
+export const HeaderName = styled.p`
   color: white;
   font-size: 0.875rem;
   padding: 0 2rem 0 2rem;

@@ -6,7 +6,7 @@ import {
   Separator,
   CartButton,
   WhiteShoppingBag,
-} from "../styles/Header";
+} from "../styles/header.styles";
  
 const Header = () => {
   return (

@@ -1,4 +1,4 @@
-import { Container } from '../styles/Content';
+import { Container } from '../styles/content.styles';
 
 const Content = () => {
   return (
