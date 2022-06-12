@@ -3,10 +3,11 @@ import Home from './pages/Index';
 
 function App() {
   const { data, isLoading } = useFeaturedBanners();
-  console.log(data, isLoading);
 
   return (
-    <Home/>
+    <>
+      {!isLoading ? <Home banners={data.results} /> : <p>Loading...</p>}
+    </>
   );
 }
 

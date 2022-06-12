@@ -1,9 +1,10 @@
 import { Container } from '../styles/content.styles';
+import Slider from './Slider';
 
-const Content = () => {
+const Content = (props) => {
   return (
     <Container>
-      Content
+      <Slider banners={props.banners} />
     </Container>
   );
 };

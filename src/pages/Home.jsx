@@ -2,11 +2,11 @@ import Header from "../components/Header";
 import Content from "../components/Content";
 import Footer from "../components/Footer";
 
-const Home = () => {
+const Home = (props) => {
   return (
     <>
       <Header />
-      <Content />
+      <Content banners={props.banners} />
       <Footer />
     </>
   );

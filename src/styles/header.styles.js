@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { ShoppingBag } from "@styled-icons/fluentui-system-regular/ShoppingBag";
 
 export const NavBar = styled.div`
-  background-color: #10629E;
+  background-color: #CBB59B;
   position: fixed;
   z-index: 8000;
   top: 0;
@@ -11,10 +11,10 @@ export const NavBar = styled.div`
   display: flex;
   height: 3rem;
   align-items: center;
-  border-bottom: 1px solid #6FBAF1;
+  border-bottom: 1px solid #EADBC9;
 `;
 
-export const HeaderName = styled.p`
+export const HeaderName = styled.div`
   color: white;
   font-size: 0.875rem;
   padding: 0 2rem 0 2rem;
@@ -30,7 +30,7 @@ export const HeaderName = styled.p`
   align-items: center;
   cursor: pointer;
   &:hover {
-    background-color: #4A99D3;
+    background-color: #EADBC9;
   }
 `;
 
@@ -40,10 +40,10 @@ export const CartButton = styled.button`
   height: 3rem;
   border: 0.125rem solid transparent;
   border: none;
-  background-color: #10629E;
+  background-color: #CBB59B;
   padding: 10px;
   &:hover {
-    background-color: #4A99D3;
+    background-color: #EADBC9;
   }
 `;
 
@@ -63,7 +63,7 @@ export const Search = styled.input`
 
 export const Separator = styled.div`
   width: 1px;
-  background-color: #6FBAF1;
+  background-color: #EADBC9;
   height: 50%;
   align-items: center;
 `;
