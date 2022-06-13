@@ -20,7 +20,6 @@ const FeaturedProducts = () => {
       <CardsContainer>
         {products.results &&
           products.results.map(product => {
-            console.log(product.data);
             return (
               <Cards key={product.data.name}>
                 <Card>
