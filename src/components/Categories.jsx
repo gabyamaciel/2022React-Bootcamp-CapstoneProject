@@ -21,7 +21,7 @@ const Categories = () => {
                 <Card>
                   <img
                     src={category.data.main_image.url}
-                    alt={category.data.name}
+                    alt={category.data.main_image.alt}
                   />
                   <CardName>
                     <h4>
