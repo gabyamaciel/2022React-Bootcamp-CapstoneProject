@@ -38,7 +38,6 @@ const Slider = ({ banners }) => {
   return (
     <ImgContainer>
       <FrontImg>
-        
         <Image
           image={banners[imgIndex].data.main_image}
           style={{
@@ -48,7 +47,6 @@ const Slider = ({ banners }) => {
             minHeight: "100%",
           }}
         />
-        
       </FrontImg>
       <BannerButtons>
         <button onClick={() => onClickHandler(-1)} >{"<"}</button>

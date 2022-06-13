@@ -12,6 +12,7 @@ export const NavBar = styled.div`
   height: 3rem;
   align-items: center;
   border-bottom: 1px solid #EADBC9;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 `;
 
 export const HeaderName = styled.div`

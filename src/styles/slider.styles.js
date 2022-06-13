@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const FrontImg = styled.div`
   margin: 0 auto;
-  margin-bottom: 5px;
   display: flex;
 `;
 
@@ -14,5 +13,6 @@ export const ImgContainer = styled.div`
 export const BannerButtons = styled.div`
   display: flex;
   justify-content: center;
+  margin-bottom: 5px;
 `;
 
