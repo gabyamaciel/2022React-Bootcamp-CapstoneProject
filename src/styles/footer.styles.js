@@ -5,6 +5,9 @@ export const Container = styled.div`
   height: 3rem;
   display: flex;
   align-items: center;
+  @media (max-width: 400px) {
+    height: 8rem;
+  }
 `;
 
 export const Message = styled.p`

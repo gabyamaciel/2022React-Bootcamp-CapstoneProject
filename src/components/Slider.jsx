@@ -4,8 +4,8 @@ import { FrontImg, ImgContainer, BannerButtons } from "../styles/slider.styles";
 const Image = ({ image }) => {
   const style = {
     backgroundImage: `url(${image.url})`,
-    height: "450px",
     width: "100%",
+    height: "250px",
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     backgroundPosition: "center",
@@ -40,12 +40,6 @@ const Slider = ({ banners }) => {
       <FrontImg>
         <Image
           image={banners[imgIndex].data.main_image}
-          style={{
-            maxWidth: "100%",
-            maxHeight: "100%",
-            minWidth: "100%",
-            minHeight: "100%",
-          }}
         />
       </FrontImg>
       <BannerButtons>
